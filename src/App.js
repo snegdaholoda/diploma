@@ -23,7 +23,7 @@ function App() {
       setTimeout(() => setTimer(timer + 1), 1000)
     }
     else{
-      setTimer(0)
+      setTimer(timer)
     }
   }, [gameStart, timer]);
     
@@ -34,7 +34,7 @@ function App() {
       setCards(shuffle([...Images, ...Images]));
       setFoundPairs([]);
       setWon(false);
-      setGameStart(false)
+      setTimer(0);
     }
     if(!disabled){
       if (activeCards.length === 0) {
@@ -63,8 +63,6 @@ function App() {
         
       }
     }
-    console.log(timer);
-    
   }
 
   return (
