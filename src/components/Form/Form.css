@@ -1,0 +1,27 @@
+.form-container{
+    margin: 0 auto;
+    width: 200px;
+    padding: 10px;
+    border: 3px solid rgb(119, 110, 110);
+    border-radius: 20px;
+    background-color: antiquewhite;
+    margin-bottom: 20px;  
+}
+.register-form{
+    display: inline-block;
+    text-align: center;
+}
+.form-field{
+
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 15px;
+}
+span{
+    color:rgb(253, 0, 0)
+
+}
+button{
+    cursor: pointer;
+}
